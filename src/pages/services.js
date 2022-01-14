@@ -2,21 +2,13 @@ import * as React from "react";
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 
-const IndexPage = () => {
+const Services = () => {
   return (
     <Layout>
       <Hero
-        title={
-          <>
-            <strong>We</strong> design, <strong>build</strong> and launch{" "}
-            <strong>Tailor Made</strong> digital
-            <strong> products</strong>
-          </>
-        }
-        shadowTitle="apptailors"
-      >
-        <p>Herere goes bottom navigation...</p>
-      </Hero>
+        title={<strong>High-quality product design and development</strong>}
+        shadowTitle="services"
+      />
       <p style={{ padding: "2rem" }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus
         eros purus, sed vestibulum lectus ullamcorper vel. Nulla lacus erat,
@@ -48,4 +40,4 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+export default Services;

@@ -1,0 +1,18 @@
+@import "../../variables.scss";
+
+.container {
+  width: 100vw;
+  padding: 0 1em;
+
+  a {
+    color: $secondary-color;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  p {
+    margin-top: 1em;
+  }
+}

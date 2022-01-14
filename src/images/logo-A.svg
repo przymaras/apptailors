@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 484.035 454.17044"
+   width="484.035"
+   height="454.17044"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg25"
+   sodipodi:docname="logo-A.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.61982329"
+     inkscape:cx="238.77773"
+     inkscape:cy="204.09043"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg25" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="__lottie_element_2">
+      <rect
+         width="1280"
+         height="720"
+         x="0"
+         y="0"
+         id="rect2" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#__lottie_element_2)"
+     id="g23"
+     transform="translate(-397.5,-133.00458)">
+    <g
+       transform="translate(640,343.5)"
+       opacity="1"
+       style="display:block"
+       id="g13">
+      <g
+         opacity="1"
+         id="g11">
+        <path
+           fill="#000000"
+           fill-opacity="0"
+           d="M 199.035,201.175 C 193.353,191.09399 137.5,92 137.5,92 c 0,0 -59.038002,-0.250999 -93.417,-0.398003"
+           id="path7" />
+        <path
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill-opacity="0"
+           stroke="#141a52"
+           stroke-opacity="1"
+           stroke-width="85"
+           d="M 199.035,201.175 C 193.353,191.09399 137.5,92 137.5,92 c 0,0 -59.038002,-0.250999 -93.417,-0.398003"
+           id="path9" />
+      </g>
+    </g>
+    <g
+       transform="translate(640,343.50003)"
+       opacity="1"
+       style="display:block"
+       id="g21">
+      <g
+         opacity="1"
+         id="g19">
+        <path
+           fill="#000000"
+           fill-opacity="0"
+           d="m -200,188 c 0,0 203,-356 203,-356 0,0 40.459999,75.862999 57.041,106.951"
+           id="path15" />
+        <path
+           stroke-linecap="round"
+           stroke-linejoin="round"
+           fill-opacity="0"
+           stroke="#141a52"
+           stroke-opacity="1"
+           stroke-width="85"
+           d="m -200,188 c 0,0 203,-356 203,-356 0,0 40.459999,75.862999 57.041,106.951"
+           id="path17" />
+      </g>
+    </g>
+  </g>
+</svg>
