@@ -71,7 +71,7 @@ a {
 
 .container {
   margin: 0;
-  max-width: 1025px;
+  max-width: $mobile-max-width;
   width: 100vw;
   // align-self: stretch;
 }
@@ -126,6 +126,7 @@ a {
 .nav-links {
   padding: 100px 0 1em 2rem;
   width: 100vw;
+  max-width: $mobile-max-width;
   display: flex;
   flex-direction: column;
   position: absolute;

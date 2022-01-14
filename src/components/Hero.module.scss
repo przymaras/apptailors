@@ -1,8 +1,9 @@
 @import "../variables.scss";
 
 .container {
-  padding: 0 2rem;
+  padding: 0 4rem;
   width: 100vw;
+  max-width: $mobile-max-width;
   height: calc(100vh - 100px);
 }
 
@@ -44,4 +45,8 @@
     font-weight: 700;
     opacity: 0.05;
   }
+}
+
+.bottom {
+  height: 50%;
 }

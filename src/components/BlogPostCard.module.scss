@@ -1,0 +1,57 @@
+@import "../variables.scss";
+
+.container {
+  margin: 1em 1em 2em 1em;
+  border-radius: 4px;
+  transition: transform 250ms ease-in-out;
+  position: relative;
+  background: #fbfbfb;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 1px 1px 5px gray;
+  }
+
+  a {
+    color: $main-color;
+
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  img {
+    border-radius: 4px;
+  }
+}
+
+.post {
+  transform: translateZ(0);
+  margin-top: -1em;
+  margin-left: 3em;
+  background: #fcfcfc;
+  padding: 1em;
+  border-radius: 4px 0 4px 0;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.dateAuthor {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+  color: gray;
+}
+
+.readMore {
+  margin-top: 1em;
+  color: $secondary-color;
+}

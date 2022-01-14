@@ -4,10 +4,12 @@ import { Link } from "gatsby";
 // import { Link, useStaticQuery, graphql } from "gatsby";
 
 import * as styles from "./Layout.module.scss";
+
 import { LogoA } from "../images/LogoA";
-import { StaticImage } from "gatsby-plugin-image";
+import menuBtn from "../images/menu_icon.svg";
 
 let prevScrollY = "0";
+let timer;
 
 const Layout = ({ children }) => {
   const [navToggle, setNavToggle] = useState(true);
@@ -18,7 +20,7 @@ const Layout = ({ children }) => {
   }
 
   function closeNav() {
-    setTimeout(() => {
+    timer = setTimeout(() => {
       setNavToggle(true);
     }, 300);
   }
@@ -46,6 +48,7 @@ const Layout = ({ children }) => {
 
     return () => {
       window.removeEventListener("scroll", handleScrollY);
+      clearTimeout(timer);
     };
   }, []);
 
@@ -70,11 +73,12 @@ const Layout = ({ children }) => {
             </Link>
           </div>
           <button onClick={toggleMenu} className={styles.navToggleBtn}>
-            <StaticImage
-              src="../images/menu_icon.svg"
-              backgroundColor="transparent"
-              loading="eager"
+            <img
+              src={menuBtn}
+              loading="lazy"
               alt="Menu button"
+              width={30}
+              height={26}
             />
           </button>
         </div>

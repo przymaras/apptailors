@@ -20,7 +20,7 @@ function Hero(props) {
           {props.title}
           <span>{props.shadowTitle}</span>
         </h1>
-        <div>{props.children}</div>
+        <div className={styles.bottom}>{props.children}</div>
       </div>
     </div>
   );

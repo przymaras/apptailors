@@ -2,6 +2,7 @@
 
 .container {
   width: 100vw;
+  max-width: $mobile-max-width;
   padding: 0 1em;
 
   a {
@@ -12,6 +13,8 @@
     }
   }
 
+  h2,
+  h3,
   p {
     margin-top: 1em;
   }
