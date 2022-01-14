@@ -7,10 +7,12 @@ import * as styles from "./index.module.scss";
 import Layout from "../../components/Layout";
 import Hero from "../../components/Hero";
 import BlogPostCard from "../../components/BlogPostCard";
+import Seo from "../../components/Seo";
 
 const BlogPage = ({ data }) => {
   return (
     <Layout>
+      <Seo title="AppTailors | Blog" />
       <Hero title="Blog" shadowTitle="apptailors">
         <h2>
           Our mobile & web app development agency will help you to bring your

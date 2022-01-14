@@ -1,10 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: "AppTailors | Mobile and web app development agency",
-    siteUrl: `https://localhost...`,
+    author: {
+      name: `John Doe`,
+      summary: `We design, build and launch Tailor Made digital products`,
+    },
+    description: `High-quality product design and development`,
+    siteUrl: `https://apptailors.co`,
+    social: {
+      twitter: `apptailors`,
+    },
   },
   plugins: [
     "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

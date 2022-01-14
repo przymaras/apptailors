@@ -7,11 +7,13 @@ import * as styles from "./mdx_slug.module.scss";
 
 import Layout from "../../components/Layout";
 import BlogPostCard from "../../components/BlogPostCard";
+import Seo from "../../components/Seo";
 
 const BlogPost = ({ data, ...props }) => {
   const image = getImage(data.mdx.frontmatter.hero_image);
   return (
     <Layout>
+      <Seo title={`AppTailors | ${data.mdx.frontmatter.title}`} />
       <div className={styles.container}>
         <h1>{data.mdx.frontmatter.title}</h1>
         <p>{data.mdx.frontmatter.date}</p>

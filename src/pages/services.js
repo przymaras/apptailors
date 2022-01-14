@@ -2,10 +2,12 @@ import * as React from "react";
 
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import Seo from "../components/Seo";
 
 const Services = () => {
   return (
     <Layout>
+      <Seo title="AppTailors | Services" />
       <Hero
         title={<strong>High-quality product design and development</strong>}
         shadowTitle="services"

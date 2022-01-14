@@ -2,10 +2,12 @@ import * as React from "react";
 
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import Seo from "../components/Seo";
 
 const IndexPage = () => {
   return (
     <Layout>
+      <Seo title="AppTailors | Mobile and web app development agency" />
       <Hero
         title={
           <>
